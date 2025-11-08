@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: meteorologia
+
+  redis:
+    host: redis-17771.c277.us-east-1-3.ec2.redns.redis-cloud.com
+    port: 17771
+    password: zipDQJcza8plXccXxCFcPt9HAZZduvuO
+
+weather:
+  api:
+    base-url: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline
+    key: TLEV42DZ26BQA4FBRQN8KNEX8
